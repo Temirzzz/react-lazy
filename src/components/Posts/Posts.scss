@@ -1,0 +1,20 @@
+.post-block {
+  $self: &;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+
+  &__posts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 500px;
+
+  }
+  
+  &__post-title {
+
+  }
+}
